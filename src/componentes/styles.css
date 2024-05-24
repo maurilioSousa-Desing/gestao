@@ -1,0 +1,81 @@
+/* styles.css */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: lightgray;
+	font-family: 'open sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: lightgray;
+	font-size: 13px;
+}
+
+a:hover{
+	color: #fff;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+}
+
+.login-screen{
+	width: 240px;
+	background: linear-gradient(purple, darkblue);
+	border-radius: 15px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+	align-items: center;
+	line-height: 50px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+.inputs{
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 50px;
+}
+
+.btn{
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, orangered, orange);
+	cursor: pointer;
+}
+
+.description{
+	color: lightgray;
+	font-size: 13px;
+	margin-top: 50px;
+}
+
+.description a{
+	font-weight: 700;
+}
+
+
